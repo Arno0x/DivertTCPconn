@@ -52,7 +52,7 @@ The provided release binaries (compiled_binaries folder) should be good to go an
 
 Compilation notes
 -------------------------
-In case you want to compile it by yourself, just open the Visual Sutdio solution file, it should compile straight away as all libs and dependencies are included.
+In case you want to compile it by yourself, just open the Visual Studio solution file, it should compile straight away as all libs and dependencies are included.
 
 You might want to update the WinDivert library:
 * Download most recent WinDivert lib from the [official website](http://reqrypt.org/windivert.html)
@@ -74,7 +74,7 @@ Solution: Download the corresponding Microsoft Visual Studio redistributable fil
 * msvcr120.dll -> Visual studio 2013
 
 Always install the same architecture (32/64 bit) of the DLL as it is the binary.
-Additional information: the windivert dll file has been compiled with VS2012, and divertTCPconn has been compiled with VS2013
+Additional information: the windivert dll file has been compiled with VS2013, and divertTCPconn has been compiled with VS2015
 
 Limitations:
 -------------------------
